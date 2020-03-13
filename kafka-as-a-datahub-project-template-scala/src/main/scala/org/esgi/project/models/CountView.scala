@@ -6,7 +6,8 @@ case class CountView (
   count_start : Int,
   count_half : Int,
   count_full : Int,
-  count_element : Int
+  count_element : Int,
+  title : Option[String] = Option("Unknown title")
   )
 
   object CountView {
